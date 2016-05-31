@@ -4,7 +4,7 @@ import java.util.Vector;
 public class Robot {
 	int ID,robotTime;
 	boolean canMove;
-	static int Battery;
+	double Battery;
 	
 	Point currLocation;
 	Point Env[];
@@ -32,8 +32,5 @@ public class Robot {
 		robotDist = new Vector<>();
 		
 	}
-	public void Action() {
-		
-
-	}
+	
 }

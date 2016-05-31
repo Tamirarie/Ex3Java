@@ -1,12 +1,12 @@
 import java.util.Vector;
 
 public class Air {
-	Vector<MSG> vec;
+	Vector<MSG> messages;
 	public Air() {
-		vec = new Vector<>();
+		messages = new Vector<>();
 	}
 	void addMSG(MSG m){
-		vec.add(m);
+		messages.add(m);
 	}
 	
 }

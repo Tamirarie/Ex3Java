@@ -1,26 +1,27 @@
 import java.awt.Point;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Vector;
 
 public class Simulator {
 	Arena Arena;
+	Air Air;
 	Vector<Robot> robots = new Vector<>();
 	File logFile;
 	Vector<String> params;
-	int time = 3*60*60*1000;
+	int time = 24*60*60*1000;
 	public Simulator(String FileParamaters) {
 		
 		int Robots[] = ReadCSV(FileParamaters);
 		System.out.println(Arrays.toString(Robots));
 		Arena = new Arena(100);
 		robots = new Vector<>();
+		Air = new Air();
 		createRobots(Robots);
+		
+		StartSim();
 
 	}
 	
@@ -28,10 +29,33 @@ public class Simulator {
 	public void StartSim(){
 		for (int i = 0; i < time; i++) {
 			for (Robot r : robots) {
-				r.Action();
+				Action(r);
 			}
 		}
 	}
+	public void Action(Robot r) {
+		if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel){ // robot is in sun
+			if(r.Battery<100) r.Battery+= 0.00001;
+		}
+		else r.Battery-= 0.00001;
+
+		
+		if(!r.canMove){
+			for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
+				double signal = Air.messages.get(i).signal;
+			}
+		}
+		else{
+			
+		}
+	}
+	
+	public double getSignal(Robot r1, Robot r2){
+		double dist = r1.currLocation.x*r2.currLocation.x + r1.currLocation.y*r2.currLocation.y;
+		double sq = Math.sqrt(dist);
+		return sq;
+	}
+	
 	
 	private void createRobots(int[] robots) {
 		int counter = 0;

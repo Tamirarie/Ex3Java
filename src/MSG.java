@@ -11,6 +11,8 @@ public class MSG {
 		this.MSGid = numOfMSGS;
 		numOfMSGS++;
 	}
+	
+	
 
 	
 }
