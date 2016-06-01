@@ -12,7 +12,10 @@ public class MSG {
 		numOfMSGS++;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "MSG id: " + MSGid + "\n time of MSG: " + timeOfMSG +"\n sender ID: " + sourceID + "MSG : " + MSG;
+	}
 
 	
 }

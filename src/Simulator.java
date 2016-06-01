@@ -40,11 +40,11 @@ public class Simulator {
 		else r.Battery-= 0.00001;
 		
 
-		int indexOfMsg = msgRead(r);
+		Vector<MSG> unRead = msgRead(r);
 		if(!r.canMove){
-			if(indexOfMsg != -1) { /// if robot didnt read message
-			
-				msgInRange(r,indexOfMsg);
+			if(unRead.size() != 0) { /// if robot didnt read message
+				
+				msgInRange(r,unRead);
 			}
 		}
 		else{
@@ -52,33 +52,55 @@ public class Simulator {
 		}
 	}
 	
-	private boolean msgInRange(Robot reciver,int i) {
+	private void msgInRange(Robot reciver,Vector<MSG> unRead) {
 		
-		Point sender = robots.get(Air.messages.get(i).senderID).currLocation;
-		double dist = reciver.currLocation.distanceSq(sender);
+		for (MSG msg : unRead) {
+			double dist = getDistMSG(reciver,msg);
+			if(dist < 50) {
+				readMSG(msg,reciver);
+				return;
+			}
+			else if(dist > 500){
+				unRead.remove(msg);
+			}
+		}
 		
-		if(dist < 50) return true;
-		if(dist > 500) return false;
 		
-		Vector<MSG> unRead = new Vector<>();
-		unRead.add(Air.messages.get(i));
 		
-		return true;
+	}
+
+	private void readMSG(MSG msg,Robot r) {
+		r.MSGhistory.add(msg);
+		log.addSentence("Robot "+ r.ID + "Read : " + msg.toString());
+		/*
+		 * need to check in next turn what to do with the message
+		 */
 		
 	}
 
 
 
-	private int msgRead(Robot r){
-		
+	private double getDistMSG(Robot reciver, MSG msg) {
+		Point sender = robots.get(msg.senderID).currLocation;
+		double dist = reciver.currLocation.distanceSq(sender);
+		return dist;
+	}
+
+
+
+	private Vector<MSG> msgRead(Robot r){
+		Vector<MSG> unRead = new Vector<>();
+		boolean read = false;
 		for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
+			read = false;
 			for (int j = 0; j < r.MSGhistory.size(); j++) {
 				if(r.MSGhistory.get(i).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
-					return i;
+					read = true;
 				}
+				if(read == false) unRead.add(Air.messages.get(i));
 			}
 		}
-		return -1;
+		return unRead;
 	}
 
 	private void checkEnv(Robot r) {

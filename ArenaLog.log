@@ -1,0 +1,38 @@
+ιεπ 01, 2016 10:41:09 PM Log <init>
+INFO: Created Log
+ιεπ 01, 2016 10:41:10 PM Log addSentence
+INFO: Robot 1 moved from java.awt.Point[x=17,y=92]: [UP,]
+ιεπ 01, 2016 10:41:10 PM Log addSentence
+INFO: Robot 2 moved from java.awt.Point[x=15,y=24]: [UP,]
+ιεπ 01, 2016 10:41:10 PM Log addSentence
+INFO: Robot 3 moved from java.awt.Point[x=83,y=94]: [LEFT,]
+ιεπ 01, 2016 10:41:10 PM Log addSentence
+INFO: Robot 4 moved from java.awt.Point[x=37,y=17]: [RIGHT,]
+ιεπ 01, 2016 10:41:11 PM Log addSentence
+INFO: Robot 0 moved from java.awt.Point[x=60,y=86]: [UP,]
+ιεπ 01, 2016 10:41:11 PM Log addSentence
+INFO: Robot 1 moved from java.awt.Point[x=17,y=93]: [UP,, UP,]
+ιεπ 01, 2016 10:41:11 PM Log addSentence
+INFO: Robot 2 moved from java.awt.Point[x=14,y=24]: [UP,, LEFT,]
+ιεπ 01, 2016 10:41:11 PM Log addSentence
+INFO: Robot 4 moved from java.awt.Point[x=38,y=17]: [RIGHT,, RIGHT,]
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 0 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 1 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 2 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 3 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 4 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 0 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 1 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 2 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 3 Just Died!
+ιεπ 01, 2016 10:41:12 PM Log addSentence
+INFO: Robot 4 Just Died!
