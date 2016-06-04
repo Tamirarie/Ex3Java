@@ -3,10 +3,13 @@ import java.io.PrintWriter;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+/*
+ *Record all actions to a log document
+ */
 
 public class Log {
 	Logger logger;
-	public Log(String name) {
+	public Log(String name) {                  ////builder
 		logger = Logger.getLogger("MyLog");  
 	    FileHandler fh;  
 	    logger.setUseParentHandlers(false);

@@ -1,4 +1,10 @@
 import java.awt.Point;
+/*
+ * Two types of robot moving and not moving.
+ * Each robot have a battery- life time.
+ * The robot know his environment(up,down,right and left to him).
+ * Each robot can do one action in one time round.
+ */
 import java.util.Vector;
 
 public class Robot {
@@ -12,7 +18,7 @@ public class Robot {
 	Vector <MSG> MSGhistory;
 	Vector<Double> robotDist;
 	MSG Recived;
-	public Robot(int ID, boolean canMove,Point p) {
+	public Robot(int ID, boolean canMove,Point p) {					//builder
 
 		this.ID = ID;
 		this.canMove = canMove;
@@ -27,7 +33,7 @@ public class Robot {
 		robotDist = new Vector<>();
 
 	}
-	private Point[] getEnv(Point p) {
+	private Point[] getEnv(Point p) {								//the robot environment
 		Point right = new Point((int)(p.getX()+1),(int)(p.getY()));
 		Point left = new Point((int)(p.getX()-1),(int)(p.getY()));
 		Point up = new Point ((int)(p.getX()),(int)(p.getY()+1));
@@ -59,7 +65,7 @@ public class Robot {
         void move();
     }
 
-    private MoveAction[] moveActions = new MoveAction[] {
+    private MoveAction[] moveActions = new MoveAction[] {					//action list
     	new MoveAction() { public void move() { Stay(); } },
         new MoveAction() { public void move() { moveRight(); } },
         new MoveAction() { public void move() { moveLeft(); } },

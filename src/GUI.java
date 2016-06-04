@@ -13,7 +13,7 @@ public class GUI {
 		Simulator = new Simulator("test.txt");
 		frame = new JFrame("Robots Arena");
 	
-		frame.setSize(500, 500);
+		frame.setSize(500, 500);                                   //size of viwe 
 		frame.getContentPane().setLayout(new GridLayout(Simulator.Arena.ArenaSize,Simulator.Arena.ArenaSize));
 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,7 +22,7 @@ public class GUI {
 
 
 	}
-	public void StartSim(){
+	public void StartSim(){                       //connecting between the GUI to the Simulator
 		initPanel();
 		for (int i = 0; i < 100; i++) {
 			for (Robot r : Simulator.robots) {
@@ -36,7 +36,7 @@ public class GUI {
 		}
 	}
 
-	private void updatePanel(){
+	private void updatePanel(){                                               //After one round of action, arena update 
 		for (int i = 0; i < Simulator.Arena.ArenaSize; i++) {
 			for (int j = 0; j < Simulator.Arena.ArenaSize; j++) {
 				
@@ -63,7 +63,7 @@ public class GUI {
 	}
 
 
-	private void initPanel() {
+	private void initPanel() {												//insert the arena to GUI
 		Panel = new JPanel [Simulator.Arena.ArenaSize][Simulator.Arena.ArenaSize];
 		for (int i = 0; i < Simulator.Arena.ArenaSize; i++) {
 			for (int j = 0; j < Simulator.Arena.ArenaSize; j++) {

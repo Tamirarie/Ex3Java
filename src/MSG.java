@@ -5,7 +5,7 @@ public class MSG {
 	double signal;
 	String MSG;
 	
-	public MSG(String msg,double signal,int sourceID,int timeOfMSG) {
+	public MSG(String msg,double signal,int sourceID,int timeOfMSG) {				//builder
 		this.MSG = msg;
 		this.signal = signal;
 		this.MSGid = numOfMSGS;
@@ -13,7 +13,7 @@ public class MSG {
 	}
 	
 	@Override
-	public String toString() {
+	public String toString() {           //Text format
 		return "MSG id: " + MSGid + "\n time of MSG: " + timeOfMSG +"\n sender ID: " + sourceID + "MSG : " + MSG;
 	}
 

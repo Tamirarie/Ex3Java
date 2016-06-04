@@ -4,6 +4,9 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Vector;
+/*
+ * The simulator controls the life time of the game and connect between all the classes
+ */
 
 public class Simulator {
 	Arena Arena;
@@ -12,7 +15,7 @@ public class Simulator {
 	Log log;
 	Vector<String> params;
 	int time = 24*60*60*1000;
-	public Simulator(String FileParamaters) {
+	public Simulator(String FileParamaters) {				//builder
 
 		int Robots[] = ReadCSV(FileParamaters);
 		System.out.println(Arrays.toString(Robots));
