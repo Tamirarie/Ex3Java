@@ -16,7 +16,7 @@ public class GUI {
 		Simulator = new Simulator("test.txt");
 		frame = new JFrame("Robots Arena");
 	
-		frame.setSize(500, 500);                                   //size of viwe 
+		frame.setSize(500, 500);                                   //size of view
 		frame.getContentPane().setLayout(new GridLayout(Simulator.Arena.ArenaSize,Simulator.Arena.ArenaSize));
 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
