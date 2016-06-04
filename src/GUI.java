@@ -1,5 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Vector;
 
 
 public class GUI {
@@ -25,6 +28,7 @@ public class GUI {
 	public void StartSim(){                       //connecting between the GUI to the Simulator
 		initPanel();
 		for (int i = 0; i < 100; i++) {
+			Collections.shuffle(Simulator.robots);
 			for (Robot r : Simulator.robots) {
 				if(!r.Dead)
 				Simulator.Action(r);
