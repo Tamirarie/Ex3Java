@@ -1,38 +1,3722 @@
-ιεπ 01, 2016 10:41:09 PM Log <init>
+ιεπ 04, 2016 11:13:28 PM Log <init>
 INFO: Created Log
-ιεπ 01, 2016 10:41:10 PM Log addSentence
-INFO: Robot 1 moved from java.awt.Point[x=17,y=92]: [UP,]
-ιεπ 01, 2016 10:41:10 PM Log addSentence
-INFO: Robot 2 moved from java.awt.Point[x=15,y=24]: [UP,]
-ιεπ 01, 2016 10:41:10 PM Log addSentence
-INFO: Robot 3 moved from java.awt.Point[x=83,y=94]: [LEFT,]
-ιεπ 01, 2016 10:41:10 PM Log addSentence
-INFO: Robot 4 moved from java.awt.Point[x=37,y=17]: [RIGHT,]
-ιεπ 01, 2016 10:41:11 PM Log addSentence
-INFO: Robot 0 moved from java.awt.Point[x=60,y=86]: [UP,]
-ιεπ 01, 2016 10:41:11 PM Log addSentence
-INFO: Robot 1 moved from java.awt.Point[x=17,y=93]: [UP,, UP,]
-ιεπ 01, 2016 10:41:11 PM Log addSentence
-INFO: Robot 2 moved from java.awt.Point[x=14,y=24]: [UP,, LEFT,]
-ιεπ 01, 2016 10:41:11 PM Log addSentence
-INFO: Robot 4 moved from java.awt.Point[x=38,y=17]: [RIGHT,, RIGHT,]
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 0 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 1 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 2 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 3 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 4 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 0 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 1 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 2 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 3 Just Died!
-ιεπ 01, 2016 10:41:12 PM Log addSentence
-INFO: Robot 4 Just Died!
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 0
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 1
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 2
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 3
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 4
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 5
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 6
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 7
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 8
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:29 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 9
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 10
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 11
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 12
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 13
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 14
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:30 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 15
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:31 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 16
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:31 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 17
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:31 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 18
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:31 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 19
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 20
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 21
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 22
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 23
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 24
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 25
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 26
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 27
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 28
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 29
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 30
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 31
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 32
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 33
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:32 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 34
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 35
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 36
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 37
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 38
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 39
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 40
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 41
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 42
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 43
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 44
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 45
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 46
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 47
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 48
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 49
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 50
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 51
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 52
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 53
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 54
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 55
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 56
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 57
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 58
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:34 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 59
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 60
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 61
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 62
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 63
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 64
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 65
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 66
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 67
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 68
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:35 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 69
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 70
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 71
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 72
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 73
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 74
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 75
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 76
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 77
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 78
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 79
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 80
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 81
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 82
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 83
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 84
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 85
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 86
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 87
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 88
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 89
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 90
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 91
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 92
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 93
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 94
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 95
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 96
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 97
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 98
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 99
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 100
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 101
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 102
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 103
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 104
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 105
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 106
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 107
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 108
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:38 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 109
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 110
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 111
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 112
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 113
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 114
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 115
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 116
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 117
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 118
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 119
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 120
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 121
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 122
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 123
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 124
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 125
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 126
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 127
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 128
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:40 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 129
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 130
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 131
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 132
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 133
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 134
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 135
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 136
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 137
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 138
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:41 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 139
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 140
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 141
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 142
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 143
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 144
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 145
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 146
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 147
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 148
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:42 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 149
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 150
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 151
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 152
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 153
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 154
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 155
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 156
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 157
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 158
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:43 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 159
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 160
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 161
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 162
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 163
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 164
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 165
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 166
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 167
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 168
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:44 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 169
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 170
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 171
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 172
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 173
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 174
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 175
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 176
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 177
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 178
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:45 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 179
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 180
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 181
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 182
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 183
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 184
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 185
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 186
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 187
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 188
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:46 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 189
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 190
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 191
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 192
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 193
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 194
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 195
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 196
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 197
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 198
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:47 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 199
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 200
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 201
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 202
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 203
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 204
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 205
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 206
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 207
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 208
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 209
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 210
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 211
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 212
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 213
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 214
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 215
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 216
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 217
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 218
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 219
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 220
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 221
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 222
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 223
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 224
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 225
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 226
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 227
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 228
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:49 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 229
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 230
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 231
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 232
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 233
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 234
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 235
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 236
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 237
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 238
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:50 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 239
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 240
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 241
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 242
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 243
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 244
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 245
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 246
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 247
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 248
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:51 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 249
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 250
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 251
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 252
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 253
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 254
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 255
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 256
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 257
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 258
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:52 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 259
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 260
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 261
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 262
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 263
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 264
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 265
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 266
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 267
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 268
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 269
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 270
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 271
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 272
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 273
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 274
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 275
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 276
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 277
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 278
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 279
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 280
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 281
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 282
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 283
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 284
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 285
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 286
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 287
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 288
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 289
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 290
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 291
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 292
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 293
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 294
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 295
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 296
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 297
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 298
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:55 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 299
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 300
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 301
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 302
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 303
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 304
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 305
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 306
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 307
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 308
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:56 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 309
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 310
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 311
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 312
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 313
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 314
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 315
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 316
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 317
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 318
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:57 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 319
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 320
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 321
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 322
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 323
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 324
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 325
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 326
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 327
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 328
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:58 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 329
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 330
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 331
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 332
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 333
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 334
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 335
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 336
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 337
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 338
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:13:59 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 339
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 340
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 341
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 342
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 343
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 344
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 345
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 346
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 347
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 348
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:00 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 349
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 350
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 351
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 352
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 353
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 354
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 355
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 356
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 357
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 358
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:02 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 359
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 360
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 361
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 362
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 363
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 364
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 365
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 366
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 367
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 368
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:03 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 369
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 370
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 371
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 372
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 373
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 374
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 375
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 376
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 377
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 378
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:04 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 379
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 380
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 381
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 382
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 383
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 384
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 385
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 386
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 387
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 388
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:05 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 389
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 390
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 391
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 392
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 393
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 394
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 395
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 396
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 397
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 398
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:06 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 399
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 400
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 401
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 402
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 403
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 404
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 405
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 406
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 407
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 408
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:07 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 409
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 410
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 411
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 412
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 413
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 414
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 415
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 416
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 417
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 418
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:09 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 419
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 420
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 421
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 422
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 423
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 424
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 425
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 426
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 427
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 428
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:10 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 429
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 430
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 431
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 432
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 433
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 434
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 435
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 436
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 437
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 438
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:11 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 439
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 440
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 441
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 442
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 443
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 444
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 445
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 446
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 447
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 448
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:12 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 449
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 450
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 451
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 452
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 453
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 454
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 455
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 456
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 457
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 458
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:14 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 459
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 460
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 461
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 462
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 463
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 464
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 465
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 466
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 467
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 468
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:15 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 469
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 470
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 471
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 472
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 473
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 474
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 475
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 476
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 477
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 478
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:16 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 479
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 480
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 481
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 482
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 483
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 484
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 485
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 486
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 487
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 488
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:17 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 489
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 490
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 491
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 492
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 493
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 494
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 495
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 496
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 497
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 498
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:18 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 499
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 500
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 501
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 502
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 503
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 504
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 505
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 506
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 507
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 508
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:19 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 509
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 510
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 511
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 512
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 513
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 514
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 515
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 516
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 517
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 518
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:20 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 519
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 520
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 521
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 522
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 523
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 524
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 525
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 526
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 527
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 528
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:21 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 529
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 530
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 531
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 532
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 533
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 534
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 535
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 536
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 537
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 538
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:23 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 539
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 540
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 541
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 542
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 543
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 544
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 545
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 546
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 547
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 548
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:24 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 549
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 550
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 551
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 552
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 553
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 554
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 555
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 556
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 557
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 558
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:25 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 559
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 560
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 561
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 562
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 563
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 564
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 565
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 566
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 567
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 568
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 569
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 570
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 571
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 572
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 573
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 574
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 575
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 576
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 577
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 578
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:26 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 579
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 580
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 581
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 582
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 583
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 584
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 585
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 586
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 587
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 588
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:27 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 589
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 590
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 591
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 592
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 593
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 594
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 595
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 596
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 597
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 598
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:28 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 599
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 600
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 601
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 602
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 603
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 604
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 605
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 606
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 607
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 608
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:29 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 609
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 610
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 611
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 612
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 613
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 614
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 615
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 616
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 617
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 618
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:30 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 619
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 620
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 621
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 622
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 623
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 624
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 625
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 626
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 627
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 628
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:31 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 629
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 630
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 631
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 632
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 633
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 634
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 635
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 636
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 637
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 638
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:32 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 639
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 640
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 641
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 642
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 643
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 644
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 645
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 646
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 647
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 648
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:33 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 649
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 650
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 651
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 652
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 653
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 654
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 655
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 656
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 657
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 658
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:34 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 659
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 660
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 661
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 662
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 663
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 664
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 665
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 666
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 667
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 668
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:35 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 669
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 670
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 671
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 672
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 673
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 674
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 675
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 676
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 677
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 678
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 679
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 680
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 681
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 682
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 683
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 684
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 685
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 686
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 687
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 688
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:36 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 689
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 690
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 691
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 692
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 693
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 694
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 695
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 696
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 697
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 698
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:37 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 699
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 700
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 701
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 702
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 703
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 704
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 705
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 706
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 707
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 708
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:38 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 709
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 710
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 711
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 712
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 713
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 714
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 715
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 716
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 717
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 718
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 719
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 720
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 721
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 722
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 723
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 724
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 725
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 726
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 727
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 728
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:39 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 729
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 730
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 731
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 732
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 733
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 734
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 735
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 736
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 737
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 738
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:40 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 739
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 740
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 741
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 742
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 743
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 744
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 745
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 746
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 747
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 748
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:41 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 749
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 750
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 751
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 752
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 753
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 754
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 755
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 756
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 757
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 758
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:42 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 759
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 760
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 761
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 762
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 763
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 764
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 765
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 766
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 767
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 768
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:43 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 769
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 770
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 771
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 772
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 773
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 774
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 775
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 776
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 777
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 778
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:44 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 779
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 780
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 781
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 782
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 783
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 784
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 785
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 786
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 787
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 788
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:45 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 789
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 790
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 791
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 792
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 793
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 794
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 795
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 796
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 797
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 798
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:46 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 799
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 800
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 801
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 802
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 803
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 804
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 805
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 806
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 807
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 808
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:47 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 809
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 810
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 811
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 812
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 813
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 814
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 815
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 816
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 817
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 818
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 819
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 820
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 821
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 822
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 823
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 824
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 825
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 826
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 827
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 828
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:48 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 829
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 830
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 831
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 832
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 833
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 834
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 835
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 836
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 837
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 838
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:49 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 839
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 840
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 841
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 842
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 843
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 844
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 845
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 846
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 847
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 848
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:50 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 849
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 850
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 851
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 852
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 853
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 854
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 855
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 856
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 857
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 858
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:51 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 859
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 860
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 861
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 862
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 863
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 864
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 865
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 866
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 867
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 868
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:52 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 869
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 870
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 871
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 872
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 873
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 874
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 875
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 876
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 877
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 878
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 879
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 880
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 881
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 882
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 883
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 884
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 885
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 886
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 887
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 888
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:53 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 889
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 890
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 891
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 892
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 893
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 894
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 895
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 896
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 897
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 898
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:54 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 899
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 900
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 901
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 902
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 903
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 904
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 905
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 906
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 907
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 908
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:55 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 909
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 910
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 911
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 912
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 913
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 914
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 915
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 916
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 917
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 918
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:56 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 919
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 920
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 921
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=37,y=50]
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 922
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 923
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=19,y=44]
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 924
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 2 Posted MSG: MSG id: 925
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 4 Posted MSG: MSG id: 926
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=93,y=35]
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 3 Posted MSG: MSG id: 927
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=30,y=41]
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 0 Posted MSG: MSG id: 928
+ time of MSG: 0
+ sender ID: 0MSG : Who next to me?
+ιεπ 04, 2016 11:14:57 PM Log addSentence
+INFO: Robot 1 Posted MSG: MSG id: 929
+ time of MSG: 0
+ sender ID: 0MSG : java.awt.Point[x=72,y=41]

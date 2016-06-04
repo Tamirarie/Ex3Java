@@ -35,31 +35,56 @@ public class Simulator {
 			r.Dead = true;
 			log.addSentence("Robot "+ r.ID + " Just Died!") ; 
 			return ;
-			}
-		
+		}
+
 		if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel){ // robot is in sun
 			if(r.Battery<100) r.Battery+= 0.00001;
 		}
 		else r.Battery-= 0.00001;
-		
+
 
 		Vector<MSG> unRead = msgRead(r);
 		if(!r.canMove){
 			if(unRead.size() != 0) { /// if robot didnt read message
-				
 				msgInRange(r,unRead);
+			}
+			else{
+				giveLocation(r);
 			}
 		}
 		else{
+			if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
+			{
+				askLocation(r);
+				return;
+			}
 			checkEnv(r);
 		}
 	}
-	
+
+	private void giveLocation(Robot r) {
+		MSG m = new MSG(r.ID,time);
+		m.putLocation(r);
+		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
+		Air.addMSG(m);
+	}
+
+
+
+	private void askLocation(Robot r) {
+		MSG m = new MSG(r.ID , time);
+		m.askLocation(r);
+		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
+		Air.addMSG(m);
+	}
+
+
+
 	private void msgInRange(Robot reciver,Vector<MSG> unRead) {
-		
+
 		for (MSG msg : unRead) {
 			double dist = getDistMSG(reciver,msg);
-			if(dist < 50) {
+			if(dist < 250) {
 				readMSG(msg,reciver);
 				return;
 			}
@@ -67,9 +92,9 @@ public class Simulator {
 				unRead.remove(msg);
 			}
 		}
-		
-		
-		
+
+
+
 	}
 
 	private void readMSG(MSG msg,Robot r) {
@@ -78,7 +103,7 @@ public class Simulator {
 		/*
 		 * need to check in next turn what to do with the message
 		 */
-		
+
 	}
 
 
@@ -115,7 +140,7 @@ public class Simulator {
 				r.move(a);
 				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.currLocation+": " + r.historyMoves);
 				break;}
-			}
+		}
 
 	}
 
