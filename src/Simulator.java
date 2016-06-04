@@ -13,7 +13,7 @@ public class Simulator {
 	Air Air;
 	Vector<Robot> robots = new Vector<>();
 	Log log;
-	Vector<String> params;
+//	Vector<String> params;
 	int time = 24*60*60*1000;
 	public Simulator(String FileParamaters) {				//builder
 
