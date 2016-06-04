@@ -1,4 +1,5 @@
 import java.awt.Point;
+import java.util.Queue;
 /*
  * Two types of robot moving and not moving.
  * Each robot have a battery- life time.
@@ -14,10 +15,12 @@ public class Robot {
 	boolean Dead = false;
 	Point currLocation;
 	Point Env[];
-	Vector<String> historyMoves,RobotData;
+	Vector<String> historyMoves;
 	Vector <MSG> MSGhistory;
 	Vector<Double> robotDist;
+	private String robotData;
 	MSG Recived;
+	Vector <String> actions;
 	public Robot(int ID, boolean canMove,Point p) {					//builder
 
 		this.ID = ID;
@@ -28,11 +31,12 @@ public class Robot {
 		Env = getEnv(currLocation);
 		robotTime=0;
 		historyMoves = new Vector<>();
-		RobotData = new Vector<>();
+		
 		MSGhistory = new Vector<>();
 		robotDist = new Vector<>();
-
+		actions = new Vector<>();
 	}
+	
 	private Point[] getEnv(Point p) {								//the robot environment
 		Point right = new Point((int)(p.getX()+1),(int)(p.getY()));
 		Point left = new Point((int)(p.getX()-1),(int)(p.getY()));
@@ -77,4 +81,13 @@ public class Robot {
         moveActions[index].move();
     }
 	protected void Stay() {}
+	
+	public String RobotLocation(){
+		return "["+currLocation.x+","+ currLocation.y+"]";
+	}
+	
+	public String getRobotData(){
+		robotData = "Robot ID "+ID +",Real Location: "+ currLocation;
+		return robotData;
+	}
 }

@@ -14,7 +14,7 @@ public class Arena {
 		Arena = new int [ArenaSize][ArenaSize];
 		
 		for (int i = 0; i < ArenaSize; i++) {					//setting Panels to the arena
-			Arrays.fill(Arena[i], WhitePanel);					//White Panel
+			Arrays.fill(Arena[i], GrayPanel);					
 		}
 	
 		for (int i = 0; i < ArenaSize; i++) {					//Black Panel
@@ -25,7 +25,7 @@ public class Arena {
 		}
 		for (int i = 1; i < ArenaSize-1; i++) {					//Gray Panel
 			int rand = (int)(Math.random()*(ArenaSize-2) + 1);
-			Arena[i][rand] = GrayPanel;
+			Arena[i][rand] = WhitePanel;
 			
 		}
 	}

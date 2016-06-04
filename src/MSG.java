@@ -6,28 +6,30 @@ public class MSG {
 	String MSG;
 	
 	String askLocation = "Who next to me?";
-	String giveLocation = "";
+	//String giveLocation = "";
 	String outOfBattery = "My Battery is low";
 	String inLight = "I am at the light";
 	
 	public MSG(int sourceID,int timeOfMSG) {				//builder
 		this.MSGid = numOfMSGS;
+		this.timeOfMSG = timeOfMSG;
+		this.senderID = sourceID;
 		numOfMSGS++;
 	}
 	
 	@Override
 	public String toString() {           //Text format
-		return "MSG id: " + MSGid + "\n time of MSG: " + timeOfMSG +"\n sender ID: " + sourceID + "MSG : " + MSG;
+		return "MSG id: " + MSGid + " time of MSG: " + timeOfMSG +" sender ID: " + senderID + " MSG : " + MSG;
 	}
 	
 	public void askLocation(Robot r){
 		MSG = askLocation;
 	}
 	public void giveLightLocation (Robot r){
-		MSG = inLight+ r.currLocation;
+		MSG = inLight+ r.RobotLocation();
 	}
 	public void putLocation (Robot r){
-		MSG = r.currLocation.toString();
+		MSG = r.RobotLocation();
 	}
 	
 }

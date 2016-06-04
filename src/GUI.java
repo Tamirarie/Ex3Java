@@ -27,11 +27,12 @@ public class GUI {
 	}
 	public void StartSim(){                       //connecting between the GUI to the Simulator
 		initPanel();
+		Vector <Robot> temp = getNewRobots(Simulator.robots) ;
 		for (int i = 0; i < 100; i++) {
-			Collections.shuffle(Simulator.robots);
-			for (Robot r : Simulator.robots) {
+			Collections.shuffle(temp);
+			for (Robot r : temp) {
 				if(!r.Dead)
-				Simulator.Action(r);
+				Simulator.Action(r,i);
 			}
 
 			updatePanel();
@@ -39,7 +40,14 @@ public class GUI {
 		//	initPanel();
 		}
 	}
-
+	private Vector<Robot> getNewRobots(Vector <Robot> vec){
+		Vector<Robot> ans = new Vector<>();
+		for (int i = 0; i < vec.size(); i++) {
+			ans.add(vec.get(i));
+		}
+		return ans;
+	}
+	
 	private void updatePanel(){                                               //After one round of action, arena update 
 		for (int i = 0; i < Simulator.Arena.ArenaSize; i++) {
 			for (int j = 0; j < Simulator.Arena.ArenaSize; j++) {

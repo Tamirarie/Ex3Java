@@ -2,11 +2,14 @@ import java.awt.Point;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Vector;
 /*
  * The simulator controls the life time of the game and connect between all the classes
  */
+
+import javax.swing.plaf.basic.BasicSliderUI.ActionScroller;
 
 public class Simulator {
 	Arena Arena;
@@ -30,7 +33,7 @@ public class Simulator {
 
 
 
-	public void Action(Robot r) {
+	public void Action(Robot r,int currTime) {
 		if(r.Battery==0){
 			r.Dead = true;
 			log.addSentence("Robot "+ r.ID + " Just Died!") ; 
@@ -49,21 +52,24 @@ public class Simulator {
 				msgInRange(r,unRead);
 			}
 			else{
-				giveLocation(r);
+				giveLocation(r,currTime);
 			}
 		}
 		else{
-			if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
+			if(unRead.size() != 0) {
+				msgInRange(r, unRead);
+			}
+			else if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
 			{
-				askLocation(r);
+				askLocation(r,currTime);
 				return;
 			}
-			checkEnv(r);
+		//	else checkEnv(r);
 		}
 	}
 
-	private void giveLocation(Robot r) {
-		MSG m = new MSG(r.ID,time);
+	private void giveLocation(Robot r,int currTime) {
+		MSG m = new MSG(r.ID,currTime);
 		m.putLocation(r);
 		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
 		Air.addMSG(m);
@@ -71,8 +77,8 @@ public class Simulator {
 
 
 
-	private void askLocation(Robot r) {
-		MSG m = new MSG(r.ID , time);
+	private void askLocation(Robot r,int currTime) {
+		MSG m = new MSG(r.ID , currTime);
 		m.askLocation(r);
 		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
 		Air.addMSG(m);
@@ -82,15 +88,20 @@ public class Simulator {
 
 	private void msgInRange(Robot reciver,Vector<MSG> unRead) {
 
-		for (MSG msg : unRead) {
+		
+		Iterator<MSG> iter = unRead.iterator();
+		while (iter.hasNext()) {
+			MSG msg = iter.next();
 			double dist = getDistMSG(reciver,msg);
+	//		System.out.println(dist);
 			if(dist < 250) {
 				readMSG(msg,reciver);
 				return;
 			}
 			else if(dist > 500){
-				unRead.remove(msg);
+				iter.remove();
 			}
+		//	if(unRead.size() == 0) break;
 		}
 
 
@@ -99,18 +110,85 @@ public class Simulator {
 
 	private void readMSG(MSG msg,Robot r) {
 		r.MSGhistory.add(msg);
-		log.addSentence("Robot "+ r.ID + "Read : " + msg.toString());
-		/*
-		 * need to check in next turn what to do with the message
-		 */
+		log.addSentence("Robot "+ r.ID + " Read : " + msg.toString());
+		
+		if(!r.canMove){ ///Robot cant move
+			if(msg.MSG == msg.askLocation) r.actions.add("SendLocation");
+			else if(msg.MSG == msg.outOfBattery ){
+				for (int i = 0; i < r.Env.length; i++) {
+					if(Arena.Arena[r.Env[i].x][r.Env[i].y] == Arena.WhitePanel){
+						r.actions.add("SendLight");
+						break;
+					}
+				}
+			}
+		}
+		else{ ////Robot can move
+			if(countMsgHistoryLocations(r) == 3){
+				System.out.println("3 messages readed");
+				Point[] points = createPoints(r);
+				double x = rmsX(points,r);
+				double y = rmsY(points,r);
+				Point robotLocation = new Point((int)x,(int) y);
+				log.addSentence("Robot " + r.ID +" found his location! : " +  robotLocation);
+				log.addSentence("Robot Data : " + r.getRobotData());
+			}
+		}
+		
 
+	}
+	private Point[] createPoints(Robot r) {
+		Point[] points = new Point[3];
+		int counter=0;
+		for (int i = 0; i < r.MSGhistory.size() ; i++) {
+			String temp = r.MSGhistory.get(i).MSG;
+			if(temp.contains("[")){ /// if msg content is point
+				int find = temp.indexOf(",");
+				int x = Integer.valueOf(temp.substring(1, find));
+				int y = Integer.valueOf(temp.substring(find+1,temp.length()-1));
+				points[counter++] = new Point (x,y);
+			}
+			if(counter == 3) break; /// we have 3 points
+		}
+		return points;
+	}
+
+
+
+	public static double rmsX(Point[] points,Robot r){
+		double ms = 0;
+		for (int i = 0; i < points.length; i++) {
+			ms += points[i].x * points[i].x;
+		}
+		ms /= points.length;
+		return Math.sqrt(ms);
+	}
+	public static double rmsY(Point[] points,Robot r){
+		double ms = 0;
+		for (int i = 0; i < points.length; i++) {
+			ms += points[i].y * points[i].y;
+		}
+		ms /= points.length;
+		return Math.sqrt(ms);
+	}
+	
+
+	private int countMsgHistoryLocations(Robot r) {
+		int counter = 0;
+		for (int i = 0; i < r.MSGhistory.size(); i++) {
+			if(r.MSGhistory.get(i).MSG.contains("[")) counter++;
+		}
+		return counter;
 	}
 
 
 
 	private double getDistMSG(Robot reciver, MSG msg) {
 		Point sender = robots.get(msg.senderID).currLocation;
-		double dist = reciver.currLocation.distanceSq(sender);
+//		System.out.println("Sender robot "+sender);
+//		System.out.println("Reciver robot "+reciver.currLocation);
+		double dist = reciver.currLocation.distance(sender);
+		
 		return dist;
 	}
 
@@ -122,12 +200,13 @@ public class Simulator {
 		for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
 			read = false;
 			for (int j = 0; j < r.MSGhistory.size(); j++) {
-				if(r.MSGhistory.get(i).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
+				if(r.MSGhistory.get(j).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
 					read = true;
 				}
-				if(read == false) unRead.add(Air.messages.get(i));
 			}
+			if(read == false) unRead.add(Air.messages.get(i));
 		}
+	//	System.out.println(unRead);
 		return unRead;
 	}
 
@@ -138,18 +217,10 @@ public class Simulator {
 			if(Arena.Arena[r.Env[a].x][r.Env[a].y] != Arena.BlackPanel)
 			{
 				r.move(a);
-				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.currLocation+": " + r.historyMoves);
+				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.RobotLocation()+" : " + r.historyMoves);
 				break;}
 		}
 
-	}
-
-
-
-	public double getSignal(Robot r1, Robot r2){
-		double dist = r1.currLocation.x*r2.currLocation.x + r1.currLocation.y*r2.currLocation.y;
-		double sq = Math.sqrt(dist);
-		return sq;
 	}
 
 
@@ -163,14 +234,17 @@ public class Simulator {
 			Robot r = new Robot(counter++, true, p);
 			this.robots.add(r);
 		}
+		int numOfRobots = counter;
 		counter = 0;
+		
 		while(counter < robots[1]){
 			Point p = new Point();
 			do{
 				p = new Point((int)(Math.random()*Arena.ArenaSize),(int)(Math.random()*Arena.ArenaSize));
 			}while(Arena.Arena[p.x][p.y] == Arena.BlackPanel);
-			Robot r = new Robot(counter++, false, p);
+			Robot r = new Robot(numOfRobots++, false, p);
 			this.robots.add(r);
+			counter++;
 		}
 
 
