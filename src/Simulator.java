@@ -9,15 +9,12 @@ import java.util.Vector;
  * The simulator controls the life time of the game and connect between all the classes
  */
 
-import javax.swing.plaf.basic.BasicSliderUI.ActionScroller;
 
 public class Simulator {
 	Arena Arena;
 	Air Air;
 	Vector<Robot> robots = new Vector<>();
 	Log log;
-//	Vector<String> params;
-	int time = 24*60*60*1000;
 	public Simulator(String FileParamaters) {				//builder
 
 		int Robots[] = ReadCSV(FileParamaters);
@@ -33,6 +30,9 @@ public class Simulator {
 
 
 
+	/*
+	 * method action that presents an action of certain robot in simulator
+	 */
 	public void Action(Robot r,int currTime) {
 		if(r.Battery==0){
 			r.Dead = true;
@@ -67,7 +67,9 @@ public class Simulator {
 		//	else checkEnv(r);
 		}
 	}
-
+	/*
+	 * method that posting give location message to air
+	 */
 	private void giveLocation(Robot r,int currTime) {
 		MSG m = new MSG(r.ID,currTime);
 		m.putLocation(r);
@@ -76,7 +78,9 @@ public class Simulator {
 	}
 
 
-
+	/*
+	 * method that posting ask location message to air
+	 */
 	private void askLocation(Robot r,int currTime) {
 		MSG m = new MSG(r.ID , currTime);
 		m.askLocation(r);
@@ -85,20 +89,20 @@ public class Simulator {
 	}
 
 
-
+	/*
+	 * check which messages are in range and selecting the first between them to read it
+	 */
 	private void msgInRange(Robot reciver,Vector<MSG> unRead) {
-
-		
 		Iterator<MSG> iter = unRead.iterator();
 		while (iter.hasNext()) {
 			MSG msg = iter.next();
 			double dist = getDistMSG(reciver,msg);
-	//		System.out.println(dist);
-			if(dist < 250) {
+			System.out.println(dist);
+			if(dist < 50) {
 				readMSG(msg,reciver);
 				return;
 			}
-			else if(dist > 500){
+			else if(dist > 100){
 				iter.remove();
 			}
 		//	if(unRead.size() == 0) break;
@@ -107,7 +111,10 @@ public class Simulator {
 
 
 	}
-
+	
+	/*
+	 * method that presents robot that reads message and deciding what to do with it
+	 */
 	private void readMSG(MSG msg,Robot r) {
 		r.MSGhistory.add(msg);
 		log.addSentence("Robot "+ r.ID + " Read : " + msg.toString());
@@ -125,7 +132,7 @@ public class Simulator {
 		}
 		else{ ////Robot can move
 			if(countMsgHistoryLocations(r) == 3){
-				System.out.println("3 messages readed");
+	//			System.out.println("3 messages readed");
 				Point[] points = createPoints(r);
 				double x = rmsX(points,r);
 				double y = rmsY(points,r);
@@ -137,6 +144,10 @@ public class Simulator {
 		
 
 	}
+	/*
+	 * method that create array of 3 points from the robot msg history
+	 * after we know that the robot has 3 messages of location points
+	 */
 	private Point[] createPoints(Robot r) {
 		Point[] points = new Point[3];
 		int counter=0;
@@ -152,9 +163,73 @@ public class Simulator {
 		}
 		return points;
 	}
+	
+	/*
+	 * method that counts if certain robot has in msg history
+	 * at least 3 messages that contain information about locations
+	 */
+	private int countMsgHistoryLocations(Robot r) {
+		int counter = 0;
+		for (int i = 0; i < r.MSGhistory.size(); i++) {
+			if(r.MSGhistory.get(i).MSG.contains("[")) counter++;
+		}
+		return counter;
+	}
 
 
+	/*
+	 * method that calculates the distance between the sender robot and the reciver robot
+	 */
+	private double getDistMSG(Robot reciver, MSG msg) {
+		
+		Point sender = robots.get(msg.senderID).currLocation;
+		double dist = reciver.currLocation.distance(sender);
+		
+		return dist;
+	}
 
+
+	/*
+	 * method that returns vector of unread messages that are in the air
+	 */
+	private Vector<MSG> msgRead(Robot r){
+		Vector<MSG> unRead = new Vector<>();
+		boolean read = false;
+		for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
+			read = false;
+			for (int j = 0; j < r.MSGhistory.size(); j++) {
+				if(r.MSGhistory.get(j).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
+					read = true;
+				}
+			}
+			if(read == false) unRead.add(Air.messages.get(i));
+		}
+		
+		return unRead;
+	}
+
+	/*
+	 * Enviroment algorithm that tells the robot in which direction to move
+	 * currently the algorithm tells the robot to move randomly if the panel isnt black
+	 */
+	private void checkEnv(Robot r) {
+		int a = (int)(Math.random()*4+1);
+		for (int i = 0; i < 3; i++) {
+			a = (a+i)%4;
+			if(Arena.Arena[r.Env[a].x][r.Env[a].y] != Arena.BlackPanel)
+			{
+				r.move(a);
+				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.RobotLocation()+" : " + r.historyMoves);
+				break;}
+		}
+
+	}
+
+	
+	/*
+	 * RMS algorithem to find location point of robot by
+	 * 3 points given by 3 read messages
+	 */
 	public static double rmsX(Point[] points,Robot r){
 		double ms = 0;
 		for (int i = 0; i < points.length; i++) {
@@ -172,58 +247,13 @@ public class Simulator {
 		return Math.sqrt(ms);
 	}
 	
-
-	private int countMsgHistoryLocations(Robot r) {
-		int counter = 0;
-		for (int i = 0; i < r.MSGhistory.size(); i++) {
-			if(r.MSGhistory.get(i).MSG.contains("[")) counter++;
-		}
-		return counter;
-	}
-
-
-
-	private double getDistMSG(Robot reciver, MSG msg) {
-		Point sender = robots.get(msg.senderID).currLocation;
-//		System.out.println("Sender robot "+sender);
-//		System.out.println("Reciver robot "+reciver.currLocation);
-		double dist = reciver.currLocation.distance(sender);
-		
-		return dist;
-	}
-
-
-
-	private Vector<MSG> msgRead(Robot r){
-		Vector<MSG> unRead = new Vector<>();
-		boolean read = false;
-		for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
-			read = false;
-			for (int j = 0; j < r.MSGhistory.size(); j++) {
-				if(r.MSGhistory.get(j).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
-					read = true;
-				}
-			}
-			if(read == false) unRead.add(Air.messages.get(i));
-		}
-	//	System.out.println(unRead);
-		return unRead;
-	}
-
-	private void checkEnv(Robot r) {
-		int a = (int)(Math.random()*4+1);
-		for (int i = 0; i < 3; i++) {
-			a = (a+i)%4;
-			if(Arena.Arena[r.Env[a].x][r.Env[a].y] != Arena.BlackPanel)
-			{
-				r.move(a);
-				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.RobotLocation()+" : " + r.historyMoves);
-				break;}
-		}
-
-	}
-
-
+	/////////////////////////////////////////////////
+	
+	
+	/*
+	 * Create robots from array that presents two types of robots
+	 * robots that can move and robots that cant
+	 */
 	private void createRobots(int[] robots) {
 		int counter = 0;
 		while(counter < robots[0]){
@@ -249,6 +279,11 @@ public class Simulator {
 
 
 	}
+	
+	/*
+	 * function to read csv file that has two numbers that represent the num
+	 * of two robots : can move and that cant move
+	 */
 	private int [] ReadCSV(String File) {
 		Scanner scanner;
 		int [] RobotsType = new int [2];
@@ -267,6 +302,6 @@ public class Simulator {
 	}
 
 	public static void main(String[] args) {
-		Simulator s = new Simulator("test.txt");
+//		Simulator s = new Simulator("test.txt");
 	}
 }
