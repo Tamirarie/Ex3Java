@@ -18,6 +18,7 @@ public class Simulator {
 	Log log;
 //	Vector<String> params;
 	int time = 24*60*60*1000;
+	Point found[];
 	public Simulator(String FileParamaters) {				//builder
 
 		int Robots[] = ReadCSV(FileParamaters);
@@ -27,7 +28,7 @@ public class Simulator {
 		Air = new Air();
 		log = new Log("ArenaLog");
 		createRobots(Robots);
-
+		found=new Point[robots.size()];
 
 	}
 
@@ -130,6 +131,7 @@ public class Simulator {
 				double x = rmsX(points,r);
 				double y = rmsY(points,r);
 				Point robotLocation = new Point((int)x,(int) y);
+				FoundedRobot(robotLocation, r.ID);
 				log.addSentence("Robot " + r.ID +" found his location! : " +  robotLocation);
 				log.addSentence("Robot Data : " + r.getRobotData());
 			}
@@ -264,6 +266,16 @@ public class Simulator {
 		}
 		return RobotsType;
 
+	}
+	void FoundedRobot(Point p,int index){
+		if(found[index]==null){
+		found[index]=p;	
+		}
+		else{
+			found[index].x=(found[index].x+p.x)/2;
+		    found[index].y=(found[index].y+p.y)/2;
+		   
+		}
 	}
 
 	public static void main(String[] args) {
