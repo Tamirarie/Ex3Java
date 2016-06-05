@@ -15,22 +15,20 @@ public class Simulator {
 	Air Air;
 	Vector<Robot> robots = new Vector<>();
 	Log log;
-
-//	Vector<String> params;
 	int time = 24*60*60*1000;
 	Point found[];
-
+	int numOfRobots;
 	public Simulator(String FileParamaters) {				//builder
 
 		int Robots[] = ReadCSV(FileParamaters);
 		System.out.println(Arrays.toString(Robots));
-		Arena = new Arena(100);
+		Arena = new Arena(10);
 		robots = new Vector<>();
 		Air = new Air();
 		log = new Log("ArenaLog");
+		found = new Point[numOfRobots];
 		createRobots(Robots);
-		found=new Point[robots.size()];
-
+		
 	}
 
 
@@ -86,6 +84,7 @@ public class Simulator {
 	/*
 	 * method that posting ask location message to air
 	 */
+	
 	private void askLocation(Robot r,int currTime) {
 		MSG m = new MSG(r.ID , currTime);
 		m.askLocation(r);
@@ -258,17 +257,18 @@ public class Simulator {
 	
 	/*
 	 * Create robots from array that presents two types of robots
-	 * robots that can move and robots that cant
+	 * robots that can move and robots that cant move
 	 */
 	private void createRobots(int[] robots) {
 		int counter = 0;
-		while(counter < robots[0]){
+		while(counter < robots[0]){ ///
 			Point p = new Point();
 			do{
 				p = new Point((int)(Math.random()*Arena.ArenaSize),(int)(Math.random()*Arena.ArenaSize));
 			}while(Arena.Arena[p.x][p.y] == Arena.BlackPanel);
 			Robot r = new Robot(counter++, true, p);
 			this.robots.add(r);
+			
 		}
 		int numOfRobots = counter;
 		counter = 0;
@@ -280,6 +280,7 @@ public class Simulator {
 			}while(Arena.Arena[p.x][p.y] == Arena.BlackPanel);
 			Robot r = new Robot(numOfRobots++, false, p);
 			this.robots.add(r);
+			FoundedRobot(p, r.ID);
 			counter++;
 		}
 
@@ -297,16 +298,20 @@ public class Simulator {
 			scanner = new Scanner(new File(File));
 			int i = 0;
 			while(scanner.hasNextInt()){
-				RobotsType[i++] = scanner.nextInt();
+				RobotsType[i] = scanner.nextInt();
+				numOfRobots+= RobotsType[i];
+				i++;
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println(numOfRobots);
 		return RobotsType;
 
 	}
 	void FoundedRobot(Point p,int index){
+		
 		if(found[index]==null){
 		found[index]=p;	
 		}

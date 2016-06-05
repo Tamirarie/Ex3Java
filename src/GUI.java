@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Vector;
 
@@ -27,17 +28,35 @@ public class GUI {
 	public void StartSim(){                       //connecting between the GUI to the Simulator
 		initPanel();
 		Vector <Robot> temp = getNewRobots(Simulator.robots) ;
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < Simulator.time; i++) {
 			Collections.shuffle(temp);
 			for (Robot r : temp) {
 				if(!r.Dead)
 				Simulator.Action(r,i);
 			}
-
+			if(foundAllLocations()){
+				Simulator.log.addSentence("============================================");
+				Simulator.log.addSentence("All robots found their locations! finishing");
+				Simulator.log.addSentence(Arrays.toString(Simulator.found));
+				System.exit(0);
+			}
 			updatePanel();
 			frame.getContentPane().update(frame.getGraphics());
-		//	initPanel();
 		}
+	}
+	
+	private boolean foundAllLocations(){
+		for (int i = 0; i < Simulator.found.length; i++) {
+			if(Simulator.found[i] == null) return false;
+			if(!diffPoints(i)) return false;
+		}
+		return true;
+	}
+	
+	private boolean diffPoints(int i) {
+		return(Math.abs(Simulator.found[i].x - Simulator.robots.get(i).currLocation.x) <= 1
+				&& Math.abs(Simulator.found[i].y - Simulator.robots.get(i).currLocation.y)<= 1);
+		
 	}
 	private Vector<Robot> getNewRobots(Vector <Robot> vec){
 		Vector<Robot> ans = new Vector<>();
