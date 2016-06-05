@@ -158,7 +158,7 @@ public class Simulator {
 	public static double rmsX(Point[] points,Robot r){
 		double ms = 0;
 		for (int i = 0; i < points.length; i++) {
-			ms += points[i].x * points[i].x;
+			ms += points[i].x * r.currLocation.x;
 		}
 		ms /= points.length;
 		return Math.sqrt(ms);
@@ -166,7 +166,7 @@ public class Simulator {
 	public static double rmsY(Point[] points,Robot r){
 		double ms = 0;
 		for (int i = 0; i < points.length; i++) {
-			ms += points[i].y * points[i].y;
+			ms += points[i].y * r.currLocation.y;
 		}
 		ms /= points.length;
 		return Math.sqrt(ms);
