@@ -10,6 +10,7 @@ import java.util.Queue;
 import java.util.Vector;
 
 public class Robot {
+	
 	int ID,robotTime;
 	boolean canMove;
 	double Battery;
@@ -20,7 +21,6 @@ public class Robot {
 	Vector <MSG> MSGhistory;
 	Vector<Double> robotDist;
 	private String robotData;
-	MSG Recived;
 	Queue <String> actions;
 	public Robot(int ID, boolean canMove,Point p) {					//builder
 

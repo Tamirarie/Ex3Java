@@ -1,1 +1,6 @@
-50 50
+Static Robots 50
+Dynamic Robots 50
+ArenaSize 100
+FillArenaBlack 10,10,20,20
+randomNumOfWhitePanels 40,40,60,60
+randomNumOfWhitePanels 80,80,90,90

@@ -1,6 +1,7 @@
 import java.awt.Point;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -10,6 +11,7 @@ import java.util.Vector;
  */
 
 
+
 public class Simulator {
 	Arena Arena;
 	Air Air;
@@ -17,17 +19,16 @@ public class Simulator {
 	Log log;
 	int time = 24*60*60*1000;
 	Point found[];
-	int numOfRobots;
+	int staticRobots,DynamicRobots;
 	public Simulator(String FileParamaters) {				//builder
 
-		int Robots[] = ReadCSV(FileParamaters);
-		System.out.println(Arrays.toString(Robots));
-		Arena = new Arena(100);
+		readFile("test.txt");
+
 		robots = new Vector<>();
 		Air = new Air();
 		log = new Log("ArenaLog");
-		found = new Point[numOfRobots];
-		createRobots(Robots);
+		found = new Point[staticRobots+DynamicRobots];
+		createRobots();
 
 	}
 
@@ -119,16 +120,16 @@ public class Simulator {
 			MSG msg = iter.next();
 			double dist = getDistMSG(reciver,msg);
 			System.out.println(dist);
-			if(dist < 5) {
-				if(reciver.canMove && msg.MSG == msg.askLocation){
-					iter.remove();
-				}
-				else {
+			if(dist < 20) {
+			//	if(reciver.canMove && msg.MSG == msg.askLocation){
+			//		iter.remove();
+			//	}
+			//	else {
 				readMSG(msg,reciver);
 				return;
-				}
+		//		}
 			}
-			else if(dist > 15){
+			else if(dist > 50){
 				iter.remove();
 			}
 			//	if(unRead.size() == 0) break;
@@ -296,9 +297,9 @@ public class Simulator {
 	 * Create robots from array that presents two types of robots
 	 * robots that can move and robots that cant move
 	 */
-	private void createRobots(int[] robots) {
+	private void createRobots() {
 		int counter = 0;
-		while(counter < robots[0]){ ///
+		while(counter < DynamicRobots){ ///
 			Point p = new Point();
 			do{
 				p = new Point((int)(Math.random()*Arena.ArenaSize),(int)(Math.random()*Arena.ArenaSize));
@@ -310,7 +311,7 @@ public class Simulator {
 		int numOfRobots = counter;
 		counter = 0;
 
-		while(counter < robots[1]){
+		while(counter < staticRobots){
 			Point p = new Point();
 			do{
 				p = new Point((int)(Math.random()*Arena.ArenaSize),(int)(Math.random()*Arena.ArenaSize));
@@ -328,25 +329,39 @@ public class Simulator {
 	 * function to read csv file that has two numbers that represent the num
 	 * of two robots : can move and that cant move
 	 */
-	private int [] ReadCSV(String File) {
-		Scanner scanner;
-		int [] RobotsType = new int [2];
+	private void readFile (String fileName){
+		
+		Scanner read;
 		try {
-			scanner = new Scanner(new File(File));
-			int i = 0;
-			while(scanner.hasNextInt()){
-				RobotsType[i] = scanner.nextInt();
-				numOfRobots+= RobotsType[i];
-				i++;
-			}
+			read = new Scanner(new File(fileName));
+			while (read.hasNextLine()) {
+				
+			      String line = read.nextLine();
+			      String Static[] = line.split("Static Robots");
+			      String Dynamic[] = line.split("Dynamic Robots");
+			      String ArenaSize[] = line.split("ArenaSize");
+			      String FillArenaBlack[] = line.split("FillArenaBlack");
+			      String randomWhites[] = line.split("randomNumOfWhitePanels");
+			      
+			      if(Static.length > 1) staticRobots = Integer.parseInt(Static[1].trim());   //System.out.println("Value as Long: " + Long.parseLong(Static[1].trim()));
+			      if(Dynamic.length > 1)DynamicRobots = Integer.parseInt(Dynamic[1].trim()); //System.out.println("Value as Long: " + Long.parseLong(Dynamic[1].trim()));
+			      if(ArenaSize.length > 1)Arena = new Arena(Integer.parseInt(ArenaSize[1].trim()));  //System.out.println("Value as Long: " + Long.parseLong(ArenaSize[1].trim()));
+			      if(FillArenaBlack.length > 1){
+			    	  String values[] = FillArenaBlack[1].split(",");
+			    	  Arena.fillArenaBlack(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim())); // System.out.println(Arrays.toString(FillArenaBlack));
+			      }
+			      if(randomWhites.length > 1){
+			    	  String values[] = randomWhites[1].split(",");
+			    	  Arena.fillArenaWhite(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim()));
+			      }
+			    }
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println(numOfRobots);
-		return RobotsType;
-
+	    
 	}
+	
 	void FoundedRobot(Point p,int index){
 
 		if(found[index]==null){
@@ -357,7 +372,8 @@ public class Simulator {
 			found[index].y=(found[index].y+p.y)/2;
 		
 		}
-		if(diffPoints(index)) robots.get(index).canMove = false;
+		//if(diffPoints(index))
+			robots.get(index).canMove = false;
 	}
 	private boolean diffPoints(int i) {
 		return(Math.abs(found[i].x - robots.get(i).currLocation.x) <= 1
@@ -366,5 +382,6 @@ public class Simulator {
 	}
 	public static void main(String[] args) {
 		//		Simulator s = new Simulator("test.txt");
+	//	readFile("test.txt");
 	}
 }
