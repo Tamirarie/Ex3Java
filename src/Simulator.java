@@ -22,7 +22,7 @@ public class Simulator {
 
 		int Robots[] = ReadCSV(FileParamaters);
 		System.out.println(Arrays.toString(Robots));
-		Arena = new Arena(500);
+		Arena = new Arena(100);
 		robots = new Vector<>();
 		Air = new Air();
 		log = new Log("ArenaLog");
