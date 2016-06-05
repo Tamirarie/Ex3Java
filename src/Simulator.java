@@ -22,13 +22,13 @@ public class Simulator {
 
 		int Robots[] = ReadCSV(FileParamaters);
 		System.out.println(Arrays.toString(Robots));
-		Arena = new Arena(10);
+		Arena = new Arena(500);
 		robots = new Vector<>();
 		Air = new Air();
 		log = new Log("ArenaLog");
 		found = new Point[numOfRobots];
 		createRobots(Robots);
-		
+
 	}
 
 
@@ -37,6 +37,35 @@ public class Simulator {
 	 * method action that presents an action of certain robot in simulator
 	 */
 	public void Action(Robot r,int currTime) {
+		updateBattery(r);
+		Vector<MSG> unRead = msgRead(r);
+		
+		if(!r.canMove){ /// if robot cant move
+			if(unRead.size() != 0) { /// if robot didnt read message
+				msgInRange(r,unRead);
+			}
+			else{
+				if(!r.actions.isEmpty()){ /// if robot has action that he wanted to do in previous action
+					String action = r.actions.poll();
+					if(action == "SendLocation")giveLocation(r,currTime);
+					else if (action == "SendLight") giveInLight(r, currTime);
+				}
+
+			}
+		}
+		else{ /// robot can move
+			if(unRead.size() != 0) {
+				msgInRange(r, unRead);
+			}
+			else if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
+			{
+				askLocation(r,currTime);
+				return;
+			}
+					else checkEnv(r);
+		}
+	}
+	private void updateBattery(Robot r) {
 		if(r.Battery==0){
 			r.Dead = true;
 			log.addSentence("Robot "+ r.ID + " Just Died!") ; 
@@ -48,28 +77,10 @@ public class Simulator {
 		}
 		else r.Battery-= 0.00001;
 
-
-		Vector<MSG> unRead = msgRead(r);
-		if(!r.canMove){
-			if(unRead.size() != 0) { /// if robot didnt read message
-				msgInRange(r,unRead);
-			}
-			else{
-				giveLocation(r,currTime);
-			}
-		}
-		else{
-			if(unRead.size() != 0) {
-				msgInRange(r, unRead);
-			}
-			else if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
-			{
-				askLocation(r,currTime);
-				return;
-			}
-		//	else checkEnv(r);
-		}
 	}
+
+
+
 	/*
 	 * method that posting give location message to air
 	 */
@@ -84,7 +95,7 @@ public class Simulator {
 	/*
 	 * method that posting ask location message to air
 	 */
-	
+
 	private void askLocation(Robot r,int currTime) {
 		MSG m = new MSG(r.ID , currTime);
 		m.askLocation(r);
@@ -92,6 +103,12 @@ public class Simulator {
 		Air.addMSG(m);
 	}
 
+	private void giveInLight(Robot r, int currTime){
+		MSG m = new MSG(r.ID,currTime);
+		m.giveLightLocation(r);
+		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
+		Air.addMSG(m);
+	}
 
 	/*
 	 * check which messages are in range and selecting the first between them to read it
@@ -102,27 +119,32 @@ public class Simulator {
 			MSG msg = iter.next();
 			double dist = getDistMSG(reciver,msg);
 			System.out.println(dist);
-			if(dist < 50) {
+			if(dist < 5) {
+				if(reciver.canMove && msg.MSG == msg.askLocation){
+					iter.remove();
+				}
+				else {
 				readMSG(msg,reciver);
 				return;
+				}
 			}
-			else if(dist > 100){
+			else if(dist > 15){
 				iter.remove();
 			}
-		//	if(unRead.size() == 0) break;
+			//	if(unRead.size() == 0) break;
 		}
 
 
 
 	}
-	
+
 	/*
 	 * method that presents robot that reads message and deciding what to do with it
 	 */
 	private void readMSG(MSG msg,Robot r) {
 		r.MSGhistory.add(msg);
 		log.addSentence("Robot "+ r.ID + " Read : " + msg.toString());
-		
+
 		if(!r.canMove){ ///Robot cant move
 			if(msg.MSG == msg.askLocation) r.actions.add("SendLocation");
 			else if(msg.MSG == msg.outOfBattery ){
@@ -136,7 +158,7 @@ public class Simulator {
 		}
 		else{ ////Robot can move
 			if(countMsgHistoryLocations(r) == 3){
-	//			System.out.println("3 messages readed");
+				//			System.out.println("3 messages readed");
 				Point[] points = createPoints(r);
 				double x = rmsX(points,r);
 				double y = rmsY(points,r);
@@ -146,7 +168,7 @@ public class Simulator {
 				log.addSentence("Robot Data : " + r.getRobotData());
 			}
 		}
-		
+
 
 	}
 	/*
@@ -168,7 +190,7 @@ public class Simulator {
 		}
 		return points;
 	}
-	
+
 	/*
 	 * method that counts if certain robot has in msg history
 	 * at least 3 messages that contain information about locations
@@ -186,10 +208,10 @@ public class Simulator {
 	 * method that calculates the distance between the sender robot and the reciver robot
 	 */
 	private double getDistMSG(Robot reciver, MSG msg) {
-		
+
 		Point sender = robots.get(msg.senderID).currLocation;
 		double dist = reciver.currLocation.distance(sender);
-		
+
 		return dist;
 	}
 
@@ -203,13 +225,14 @@ public class Simulator {
 		for (int i = 0; i < Air.messages.size(); i++) { // check if there is messages near by in air
 			read = false;
 			for (int j = 0; j < r.MSGhistory.size(); j++) {
-				if(r.MSGhistory.get(j).MSGid == Air.messages.get(i).MSGid){ // if robot read the message
+				if(r.MSGhistory.get(j).MSGid == Air.messages.get(i).MSGid
+						&& r.MSGhistory.get(j).MSG == Air.messages.get(i).MSG){ // if robot read the message
 					read = true;
 				}
 			}
 			if(read == false) unRead.add(Air.messages.get(i));
 		}
-		
+
 		return unRead;
 	}
 
@@ -221,16 +244,24 @@ public class Simulator {
 		int a = (int)(Math.random()*4+1);
 		for (int i = 0; i < 3; i++) {
 			a = (a+i)%4;
-			if(Arena.Arena[r.Env[a].x][r.Env[a].y] != Arena.BlackPanel)
+			Point temp = new Point(r.Env[a].x, r.Env[a].y);
+			if(Arena.Arena[r.Env[a].x][r.Env[a].y] != Arena.BlackPanel) /// another robot on desired panel
 			{
 				r.move(a);
+				if(found[r.ID] != null){ /// we want to update the founded location
+					Point p = found[r.ID];
+					if(a == 1) FoundedRobot(new Point(p.x+1, p.y), r.ID); ///moved right
+					else if(a == 2) FoundedRobot(new Point(p.x-1, p.y), r.ID); // moved left
+					else if(a == 3) FoundedRobot(new Point(p.x, p.y+1), r.ID); // moved up
+					else if(a == 4) FoundedRobot(new Point(p.x, p.y-1), r.ID); // moved down
+				}
 				if(a!= 0)log.addSentence("Robot "+ r.ID + " moved from "+ r.RobotLocation()+" : " + r.historyMoves);
 				break;}
 		}
 
 	}
 
-	
+
 	/*
 	 * RMS algorithem to find location point of robot by
 	 * 3 points given by 3 read messages
@@ -251,10 +282,16 @@ public class Simulator {
 		ms /= points.length;
 		return Math.sqrt(ms);
 	}
-	
+
 	/////////////////////////////////////////////////
-	
-	
+
+	private boolean robotOnPanel(Point p){
+		for (int i = 0; i < robots.size(); i++) {
+			if(robots.get(i).currLocation == p) return true;
+		}
+		return false;
+	}
+
 	/*
 	 * Create robots from array that presents two types of robots
 	 * robots that can move and robots that cant move
@@ -268,11 +305,11 @@ public class Simulator {
 			}while(Arena.Arena[p.x][p.y] == Arena.BlackPanel);
 			Robot r = new Robot(counter++, true, p);
 			this.robots.add(r);
-			
+
 		}
 		int numOfRobots = counter;
 		counter = 0;
-		
+
 		while(counter < robots[1]){
 			Point p = new Point();
 			do{
@@ -286,7 +323,7 @@ public class Simulator {
 
 
 	}
-	
+
 	/*
 	 * function to read csv file that has two numbers that represent the num
 	 * of two robots : can move and that cant move
@@ -311,18 +348,23 @@ public class Simulator {
 
 	}
 	void FoundedRobot(Point p,int index){
-		
+
 		if(found[index]==null){
-		found[index]=p;	
+			found[index]=p;	
 		}
 		else{
 			found[index].x=(found[index].x+p.x)/2;
-		    found[index].y=(found[index].y+p.y)/2;
-		   
+			found[index].y=(found[index].y+p.y)/2;
+		
 		}
+		if(diffPoints(index)) robots.get(index).canMove = false;
 	}
-
+	private boolean diffPoints(int i) {
+		return(Math.abs(found[i].x - robots.get(i).currLocation.x) <= 1
+				&& Math.abs(found[i].y - robots.get(i).currLocation.y)<= 1);
+		
+	}
 	public static void main(String[] args) {
-//		Simulator s = new Simulator("test.txt");
+		//		Simulator s = new Simulator("test.txt");
 	}
 }

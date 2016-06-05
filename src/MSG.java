@@ -6,7 +6,6 @@ public class MSG {
 	String MSG;
 	
 	String askLocation = "Who next to me?";
-	//String giveLocation = "";
 	String outOfBattery = "My Battery is low";
 	String inLight = "I am at the light";
 	

@@ -1,4 +1,5 @@
 import java.awt.Point;
+import java.util.LinkedList;
 import java.util.Queue;
 /*
  * Two types of robot moving and not moving.
@@ -20,7 +21,7 @@ public class Robot {
 	Vector<Double> robotDist;
 	private String robotData;
 	MSG Recived;
-	Vector <String> actions;
+	Queue <String> actions;
 	public Robot(int ID, boolean canMove,Point p) {					//builder
 
 		this.ID = ID;
@@ -34,7 +35,7 @@ public class Robot {
 		
 		MSGhistory = new Vector<>();
 		robotDist = new Vector<>();
-		actions = new Vector<>();
+		actions = new LinkedList<>();
 	}
 	
 	private Point[] getEnv(Point p) {								//the robot environment
