@@ -1,7 +1,10 @@
 import java.awt.Point;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -20,6 +23,8 @@ public class Simulator {
 	int time = 24*60*60*1000;
 	Point found[];
 	int staticRobots,DynamicRobots;
+	int currTime;
+	FileWriter writer;
 	public Simulator(String FileParamaters) {				//builder
 
 		readFile("test.txt");
@@ -28,6 +33,7 @@ public class Simulator {
 		Air = new Air();
 		log = new Log("ArenaLog");
 		found = new Point[staticRobots+DynamicRobots];
+		ExcelDiagram();
 		createRobots();
 
 	}
@@ -38,9 +44,10 @@ public class Simulator {
 	 * method action that presents an action of certain robot in simulator
 	 */
 	public void Action(Robot r,int currTime) {
+		this.currTime = currTime;
 		updateBattery(r);
 		Vector<MSG> unRead = msgRead(r);
-		
+
 		if(!r.canMove){ /// if robot cant move
 			if(unRead.size() != 0) { /// if robot didnt read message
 				msgInRange(r,unRead);
@@ -48,8 +55,8 @@ public class Simulator {
 			else{
 				if(!r.actions.isEmpty()){ /// if robot has action that he wanted to do in previous action
 					String action = r.actions.poll();
-					if(action == "SendLocation")giveLocation(r,currTime);
-					else if (action == "SendLight") giveInLight(r, currTime);
+					if(action == "SendLocation")giveLocation(r);
+					else if (action == "SendLight") giveInLight(r);
 				}
 
 			}
@@ -60,10 +67,10 @@ public class Simulator {
 			}
 			else if(Arena.Arena[r.currLocation.x][r.currLocation.y] == Arena.WhitePanel)
 			{
-				askLocation(r,currTime);
+				askLocation(r);
 				return;
 			}
-					else checkEnv(r);
+			else checkEnv(r);
 		}
 	}
 	private void updateBattery(Robot r) {
@@ -85,7 +92,7 @@ public class Simulator {
 	/*
 	 * method that posting give location message to air
 	 */
-	private void giveLocation(Robot r,int currTime) {
+	private void giveLocation(Robot r) {
 		MSG m = new MSG(r.ID,currTime);
 		m.putLocation(r);
 		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
@@ -97,14 +104,14 @@ public class Simulator {
 	 * method that posting ask location message to air
 	 */
 
-	private void askLocation(Robot r,int currTime) {
+	private void askLocation(Robot r) {
 		MSG m = new MSG(r.ID , currTime);
 		m.askLocation(r);
 		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
 		Air.addMSG(m);
 	}
 
-	private void giveInLight(Robot r, int currTime){
+	private void giveInLight(Robot r){
 		MSG m = new MSG(r.ID,currTime);
 		m.giveLightLocation(r);
 		log.addSentence("Robot " + r.ID + " Posted MSG: " + m);
@@ -120,19 +127,19 @@ public class Simulator {
 			MSG msg = iter.next();
 			double dist = getDistMSG(reciver,msg);
 			System.out.println(dist);
-			if(dist < 20) {
-			//	if(reciver.canMove && msg.MSG == msg.askLocation){
-			//		iter.remove();
-			//	}
-			//	else {
+			if(dist < (Arena.ArenaSize/2)) {
+					if(reciver.canMove && msg.MSG == msg.askLocation){
+						iter.remove();
+					}
+					else {
 				readMSG(msg,reciver);
 				return;
-		//		}
+						}
 			}
-			else if(dist > 50){
+			else if(dist > (Arena.ArenaSize/2)){
 				iter.remove();
 			}
-			//	if(unRead.size() == 0) break;
+			
 		}
 
 
@@ -330,38 +337,38 @@ public class Simulator {
 	 * of two robots : can move and that cant move
 	 */
 	private void readFile (String fileName){
-		
+
 		Scanner read;
 		try {
 			read = new Scanner(new File(fileName));
 			while (read.hasNextLine()) {
-				
-			      String line = read.nextLine();
-			      String Static[] = line.split("Static Robots");
-			      String Dynamic[] = line.split("Dynamic Robots");
-			      String ArenaSize[] = line.split("ArenaSize");
-			      String FillArenaBlack[] = line.split("FillArenaBlack");
-			      String randomWhites[] = line.split("randomNumOfWhitePanels");
-			      
-			      if(Static.length > 1) staticRobots = Integer.parseInt(Static[1].trim());   //System.out.println("Value as Long: " + Long.parseLong(Static[1].trim()));
-			      if(Dynamic.length > 1)DynamicRobots = Integer.parseInt(Dynamic[1].trim()); //System.out.println("Value as Long: " + Long.parseLong(Dynamic[1].trim()));
-			      if(ArenaSize.length > 1)Arena = new Arena(Integer.parseInt(ArenaSize[1].trim()));  //System.out.println("Value as Long: " + Long.parseLong(ArenaSize[1].trim()));
-			      if(FillArenaBlack.length > 1){
-			    	  String values[] = FillArenaBlack[1].split(",");
-			    	  Arena.fillArenaBlack(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim())); // System.out.println(Arrays.toString(FillArenaBlack));
-			      }
-			      if(randomWhites.length > 1){
-			    	  String values[] = randomWhites[1].split(",");
-			    	  Arena.fillArenaWhite(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim()));
-			      }
-			    }
+
+				String line = read.nextLine();
+				String Static[] = line.split("Static Robots");
+				String Dynamic[] = line.split("Dynamic Robots");
+				String ArenaSize[] = line.split("ArenaSize");
+				String FillArenaBlack[] = line.split("FillArenaBlack");
+				String randomWhites[] = line.split("randomNumOfWhitePanels");
+
+				if(Static.length > 1) staticRobots = Integer.parseInt(Static[1].trim());   //System.out.println("Value as Long: " + Long.parseLong(Static[1].trim()));
+				if(Dynamic.length > 1)DynamicRobots = Integer.parseInt(Dynamic[1].trim()); //System.out.println("Value as Long: " + Long.parseLong(Dynamic[1].trim()));
+				if(ArenaSize.length > 1)Arena = new Arena(Integer.parseInt(ArenaSize[1].trim()));  //System.out.println("Value as Long: " + Long.parseLong(ArenaSize[1].trim()));
+				if(FillArenaBlack.length > 1){
+					String values[] = FillArenaBlack[1].split(",");
+					Arena.fillArenaBlack(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim())); // System.out.println(Arrays.toString(FillArenaBlack));
+				}
+				if(randomWhites.length > 1){
+					String values[] = randomWhites[1].split(",");
+					Arena.fillArenaWhite(Integer.parseInt(values[0].trim()), Integer.parseInt(values[1].trim()), Integer.parseInt(values[2].trim()), Integer.parseInt(values[3].trim()));
+				}
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	    
+
 	}
-	
+
 	void FoundedRobot(Point p,int index){
 
 		if(found[index]==null){
@@ -370,18 +377,56 @@ public class Simulator {
 		else{
 			found[index].x=(found[index].x+p.x)/2;
 			found[index].y=(found[index].y+p.y)/2;
-		
+
 		}
+		try {
+			writer.append(String.valueOf(index));
+			writer.append(",");
+			writer.append(String.valueOf(p.x));
+			writer.append(",");
+			writer.append(String.valueOf(p.y));
+			writer.append(",");
+			writer.append(String.valueOf(currTime));
+			writer.append(",");
+			writer.append("\n");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		//if(diffPoints(index))
-			robots.get(index).canMove = false;
+		robots.get(index).canMove = false;
 	}
 	private boolean diffPoints(int i) {
 		return(Math.abs(found[i].x - robots.get(i).currLocation.x) <= 1
 				&& Math.abs(found[i].y - robots.get(i).currLocation.y)<= 1);
-		
+
+	}
+	private void ExcelDiagram(){
+		String filename = "RmsLocations.csv" ;
+		File file = new File(filename);
+		try {
+			writer = new FileWriter(file);
+			writer.append("RobotID");
+			writer.append(",");
+			writer.append("PosX");
+			writer.append(",");
+			writer.append("PosY");
+			writer.append(",");
+			writer.append("TimeFoundLocation");
+			writer.append(",");
+			writer.append("\n");
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+
+
 	}
 	public static void main(String[] args) {
-		//		Simulator s = new Simulator("test.txt");
-	//	readFile("test.txt");
+		Simulator s = new Simulator("test.txt");
+		s.ExcelDiagram();
 	}
 }

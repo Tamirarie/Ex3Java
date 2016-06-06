@@ -1,5 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Vector;
@@ -16,11 +19,61 @@ public class GUI {
 		Simulator = new Simulator("test.txt");
 		frame = new JFrame("Robots Arena");
 
-		frame.setSize(600, 600);                                   //size of view
+		frame.setSize(500, 500);                                   //size of view
 		frame.getContentPane().setLayout(new GridLayout(Simulator.Arena.ArenaSize,Simulator.Arena.ArenaSize));
 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		frame.addWindowListener(new WindowListener() {
+			
+			@Override
+			public void windowOpened(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void windowIconified(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void windowDeiconified(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void windowDeactivated(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void windowClosing(WindowEvent e) {
+				try {
+					Simulator.writer.flush();
+					Simulator.writer.close();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
+				
+			}
+			
+			@Override
+			public void windowClosed(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void windowActivated(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 		StartSim();
 
 
@@ -40,10 +93,19 @@ public class GUI {
 				Simulator.log.addSentence("============================================");
 				Simulator.log.addSentence("All robots found their locations! finishing");
 				Simulator.log.addSentence(Arrays.toString(Simulator.found));
+				try {
+					Simulator.writer.flush();
+					Simulator.writer.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	    	    
 				System.exit(0);
 			}
-			updatePanel();
+			if(i%1 == 0){updatePanel();
 			frame.getContentPane().update(frame.getGraphics());
+			}
 		}
 	}
 
